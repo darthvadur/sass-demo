@@ -1,0 +1,37 @@
+/* Main Stylesheet for Sass Demo */
+/*  
+* ===== Author: Dave Arthur 
+* ===== Last Updated: March 2016
+*
+*/
+// SASS-related stuff:
+// Note: Order important
+// VARIABLES
+@import 'partials/sass/variables';
+
+// FUNCTIONS
+@import 'partials/sass/functions';
+
+// MIXINS
+@import 'partials/sass/mixins';
+
+// Outputted in Stylesheet:
+
+/* RESET */
+@import 'partials/output/reset';
+
+// @FONT-FACE  
+@import 'partials/output/fonts';
+
+/* BASE */
+@import 'partials/output/base';
+
+/* LAYOUT CONTAINER STYLES  */
+@import 'partials/output/layout';
+
+/* UTILITY STYLES  */
+@import 'partials/output/utility';
+
+// CONTENT MODULES START HERE 
+@import 'partials/output/content-mod/header-content'; 
+@import 'partials/output/content-mod/features';

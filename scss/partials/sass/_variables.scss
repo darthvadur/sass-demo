@@ -1,0 +1,35 @@
+// #### GENERAL SASS VARIABLES ####
+
+// Typography
+
+$bodyFont: "Open Sans", sans-serif;
+$headingFont: "Open Sans", sans-serif;
+$altFont: "Open Sans", sans-serif;
+
+$root-font-size-px: 16px;
+$line-height-px: 24px;
+
+$lightWeight: 100;    // normal text
+$middleWeight: 300;  // medium text
+$boldWeight: 600;  // bold text
+
+// Colo(u)rs
+$black: #151515;
+$darkGray: #4c4c4c;
+$white: #fff;
+$mediumGray: #666;
+$lightGray: #808080;
+$veryLightGray: #ccc;
+$colorBrandMain: #666;
+$colorBrandCTA: #999;
+
+// Layout
+
+$maxWidthContainer: 960px;  // main website container in px
+
+// IE compatibility settings
+
+$ie9: true;
+$ie8: true;
+$ie7: false;
+

@@ -1,0 +1,12 @@
+// General Sass Functions
+
+// function to covert px values to rems
+@function -flow-rems($px) {
+	@return #{$px / 10px}rem;	
+}
+
+// function to convert px breakpoints to ems
+@function -flow-bp-ems($px) {
+	@return #{$px/$root-font-size-px}em;
+}
+

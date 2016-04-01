@@ -1,0 +1,9 @@
+// Header Content Styles
+
+.site-title {
+	margin-bottom: 0;
+}
+
+.skip-link {
+	@extend %offscreen;
+}

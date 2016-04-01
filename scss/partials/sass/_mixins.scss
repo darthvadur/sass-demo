@@ -1,0 +1,13 @@
+// #### GENERAL SASS MIXINS ####
+
+// Little mixin to convert font sizes in px to rem units. Rems don't work in IE8 so if $ie8 variable is set to true in _variables.scss then we have a fallback to px for these browsers. Also accepts optional $lhpx which is px line-height value. This over-rides the default $line-height set in _variables.scss
+
+@mixin -flow-font-size($px, $lhpx: $line-height-px) {
+	
+	@if $ie8 == true {
+	font-size: $px; // IE <= 8
+	}
+
+	font-size: #{$px/10px}rem;
+	line-height: $lhpx/$px;
+} 

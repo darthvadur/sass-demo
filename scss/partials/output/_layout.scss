@@ -1,0 +1,12 @@
+.max-container {
+	width: 94%;
+	max-width: $maxWidthContainer;
+	margin: 0 auto;
+}
+
+.site-header {
+	background-color: $darkGray;
+	color: $white;
+	padding: -flow-rems(12px) 0;
+}
+

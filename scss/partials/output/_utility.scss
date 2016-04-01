@@ -1,0 +1,46 @@
+.row:before, .row:after {
+    content: " ";
+    display: table; 
+}
+
+.row:after {
+    clear: both;
+}
+
+%offscreen {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+  	clip: rect(1px, 1px, 1px, 1px);
+}
+
+%btn {
+	color: $white;
+	padding: -flow-rems(6px) -flow-rems(12px);
+}
+
+.btn-general {  // most buttons
+	@extend %btn;
+	background-color: $colorBrandMain;
+}
+
+.btn-cta {
+	@extend %btn;
+	background-color: $colorBrandCTA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

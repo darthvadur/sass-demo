@@ -1,0 +1,63 @@
+// Feature News Article Blocks 
+
+.feat-news {
+
+	.article {
+
+		margin: -flow-rems(24px) 0;
+
+		@media screen and (max-width: -flow-bp-ems(799px)) {
+
+			&+.article {
+				border-top: 1px solid $veryLightGray;
+				padding-top: -flow-rems(24px);
+			}
+
+		}
+
+		@media screen and (min-width: -flow-bp-ems(800px)) {
+
+			width: 30%;
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 3%;
+			line-height: 1.3333;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+		}
+
+
+	}
+
+	.article-img {
+
+		margin-bottom: -flow-rems(12px); 
+
+		@media screen and (min-width: -flow-bp-ems(450px)) and (max-width: -flow-bp-ems(799px)) {
+			width: 25%;
+			float: left;
+			margin-right: -flow-rems(12px);
+
+			
+		}
+	}
+
+	.article-title {
+		margin-bottom: -flow-rems(12px);
+		@include -flow-font-size(21px, 24px);
+	}
+
+	.article-summary {
+		@include -flow-font-size(16px);
+	}
+
+	.article-meta {
+		@include -flow-font-size(13px, 16px);
+		color: $lightGray;
+	}
+
+
+}
