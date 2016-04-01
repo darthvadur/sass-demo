@@ -2,7 +2,9 @@
 
 Demo of the Sass CSS preprocessor on March 31, 2016 at Coast Coding Meetup - FUSE Community Work Hub, Gibsons, BC.
 
-View [Demo site](http://davearthurweb.com/demos/sass-demo-20160331/).
+View [Demo site](http://davearthurweb.com/demos/sass-demo-20160331/). 
+
+<small>**Note**: Images and content &ldquo;borrowed&rdquo; from [CBC News site](http://www.cbc.ca/news/canada/british-columbia) strictly for demo purposes.</small> 
 
 ## Sass Workflow
 
